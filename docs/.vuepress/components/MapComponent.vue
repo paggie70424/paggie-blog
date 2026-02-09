@@ -51,6 +51,8 @@ export default {
           { name: "Falls Creek (2017 June) �", coords: [-36.8631, 147.2806], emoji: '🏂' },
           { name: "Launceston (2017 Nov) 🍒", coords: [-41.4391, 147.1358], emoji: '🍒' },
           { name: "Hobart (2017 Nov) 🍓", coords: [-42.8821, 147.3272], emoji: '🍓' },
+          { name: "Adelaide Study (2019-2024) 💻", coords: [-34.9200, 138.6050], emoji: '💻' },
+          { name: "Adelaide Work (2024-Present) 💼", coords: [-34.9350, 138.5950], emoji: '💼' },
           { name: "Adelaide (2018-Now) 🏠", coords: [-34.9285, 138.6007], emoji: '🍷' }
         ];
 
