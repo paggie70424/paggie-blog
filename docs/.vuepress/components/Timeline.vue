@@ -24,29 +24,39 @@ export default {
     return {
       timelineData: [
         { 
-          period: '2017', 
-          title: 'Arrival & Exploration ✈️', 
-          content: 'Landed in Australia! Explored the beautiful wilderness of Tasmania and the coffee culture of Melbourne.' 
+          period: '2017 June', 
+          title: 'Melbourne, Australia – First Step Arrival & Exploration ✈️', 
+          content: 'Landed in Melbourne, Australia! Explored a working holiday in Falls Creek, experiencing the full season of snowboarding and mountain life. It was so much fun and marked an important milestone in my life in Australia.'  
+        },
+        { 
+          period: '2017 Dec', 
+          title: 'Countryside Tasmania Exploration ✈️', 
+          content: 'Visited Tasmania to explore country life. As a city girl, I experienced cherry and strawberry packing during a working holiday and enjoyed the rural lifestyle.'  
         },
         { 
           period: '2018', 
           title: 'Moving to Adelaide 🚚', 
-          content: 'Relocated to South Australia to start my studies and settle into a new life.' 
-        },
-        { 
-          period: '2020', 
-          title: 'Graduated! 🎓', 
-          content: 'Completed my Master of Data Science. A huge milestone achieved!' 
+          content: 'Relocated to South Australia to start my Bachelor of Commerce in Marketing at the University of Adelaide and settled into a new life.'  
         },
         { 
           period: '2022', 
-          title: 'Career Start 💼', 
-          content: 'Started working as a Software Engineer at the University of Adelaide.' 
+          title: 'Graduated from Bachelor Degree & Return to IT 🎓', 
+          content: 'Completed my Bachelor of Commerce in Marketing and decided to return to the IT pathway, which I initially studied in Medical Informatics at ChunShang Medical University in Taiwan. A huge milestone achieved!'  
+        },
+        { 
+          period: '2022', 
+          title: 'Master of Data Science – New Journey 🖥️', 
+          content: 'Started my IT journey again at the University of South Australia, learning SQL, Python, data visualization, data analysis, and many other relevant skills.'  
+        },
+        { 
+          period: '2024', 
+          title: 'Graduated & Career Start 💼', 
+          content: 'Started working as a Software Engineer at the University of South Australia. Learning cloud technologies in AWS and Azure, working with backend CI/CD pipelines using Lambda functions, Step Functions, EventBridge, S3, DynamoDB, and DataZone. Every day brings new challenges and opportunities to explore.'  
         },
         { 
           period: 'Present', 
           title: 'Living Life 🏸', 
-          content: 'Enjoying sports (Ping Pong, Pickleball), gym, and tech projects in Adelaide.' 
+          content: 'Enjoying sports like Ping Pong and Pickleball, going to the gym, and working on tech projects in Adelaide.'  
         }
       ]
     }

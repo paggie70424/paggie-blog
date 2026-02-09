@@ -1,15 +1,15 @@
 # Background
 
 ### Education
-- **Master's in Computer Science**  
-  *University of Tech, 2020 - 2022*
+- **Master's in Data Science**  
+  *University of , 2022 - 2024*
   
-- **Bachelor's in Software Engineering**  
-  *City College, 2016 - 2020*
+- **Bachelor's in Commerce in Marketing**  
+  *The Adelaide of University, 2019 - 2022*
 
 ### Experience
-- **Senior Developer @ TechCorp**  
-  *2022 - Present*  
+- **Research Assistant @ Adelaide University **  
+  *2024 - Present*  
   Leading frontend initiatives and mentoring junior devs.
 
 - **Intern @ StartupInc**  
