@@ -1,0 +1,148 @@
+:root {
+  /* LIGHT MODE VARIABLES */
+  --c-brand: #76D7C4;
+  --c-brand-light: #D1F2EB;
+  --c-brand-dark: #148F77;
+
+  --c-text: #2C3E50;
+  --c-text-light: #566573;
+  --c-text-accent: #117864;
+
+  --c-bg: #FFFFFF;
+  --c-bg-light: #FDFEFE;
+  --c-border: #E8F8F5;
+
+  --c-bg-navbar: rgba(255, 255, 255, 0.95);
+  --c-bg-sidebar: #FDFEFE;
+}
+
+html.dark {
+  /* DARK MODE VARIABLES - High Contrast & Cute */
+  --c-brand: #48C9B0;
+  /* Brighter teal for dark mode */
+  --c-brand-light: #1A5276;
+  /* Dark blue background for brand elements */
+  --c-brand-dark: #A3E4D7;
+  /* Light teal for text in dark mode */
+
+  --c-text: #ECF0F1;
+  /* Almost white for main text */
+  --c-text-light: #BDC3C7;
+  /* Light gray for secondary text */
+  --c-text-accent: #76D7C4;
+
+  --c-bg: #1B2631;
+  /* Deep blue-gray background */
+  --c-bg-light: #212F3C;
+  /* Slightly lighter bg */
+  --c-border: #2E4053;
+
+  --c-bg-navbar: rgba(27, 38, 49, 0.95);
+  --c-bg-sidebar: #212F3C;
+}
+
+html,
+body {
+  font-family: 'Quicksand', 'Nunito', 'Inter', sans-serif;
+  color: var(--c-text);
+  background-color: var(--c-bg-light);
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Base element overrides for dark mode clarity */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--c-text);
+  font-weight: 700;
+}
+
+p,
+li,
+span {
+  color: var(--c-text);
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid var(--c-border);
+  background-color: var(--c-bg-navbar);
+}
+
+.navbar .site-name {
+  color: var(--c-brand-dark);
+  font-weight: 700;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--c-bg-sidebar);
+  border-right: 2px solid var(--c-border);
+}
+
+.sidebar-item {
+  border-radius: 12px;
+  color: var(--c-text);
+}
+
+.sidebar-item:hover {
+  color: var(--c-brand-dark);
+  background-color: var(--c-brand-light);
+}
+
+a.sidebar-item.active {
+  color: var(--c-brand-dark);
+  background-color: var(--c-brand-light);
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  font-weight: 600;
+  color: var(--c-brand-dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--c-brand);
+}
+
+/* Profile Card specific adjustments */
+.profile-card {
+  background: var(--c-bg);
+  border-color: var(--c-border);
+}
+
+.profile-card h3 {
+  color: var(--c-text);
+}
+
+.profile-card p {
+  color: var(--c-text-light);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--c-bg-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--c-brand);
+  border-radius: 5px;
+  border: 2px solid var(--c-bg-light);
+}
+
+/* Code Blocks */
+div[class*="language-"] {
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
