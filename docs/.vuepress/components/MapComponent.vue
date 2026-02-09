@@ -47,15 +47,37 @@ export default {
         };
 
         const locations = [
-          { name: "Tasmania (2017) 🌿", coords: [-42.0, 147.0], emoji: '🐨' },
-          { name: "Melbourne (2017) ☕", coords: [-37.8136, 144.9631], emoji: '🚋' },
+          { name: "Melbourne (2017 June) ✈️", coords: [-37.8136, 144.9631], emoji: '🚋' },
+          { name: "Falls Creek (2017 June) �", coords: [-36.8631, 147.2806], emoji: '🏂' },
+          { name: "Launceston (2017 Nov) 🍒", coords: [-41.4391, 147.1358], emoji: '🍒' },
+          { name: "Hobart (2017 Nov) 🍓", coords: [-42.8821, 147.3272], emoji: '🍓' },
           { name: "Adelaide (2018-Now) 🏠", coords: [-34.9285, 138.6007], emoji: '🍷' }
+        ];
+
+        // Paths to represent the journey (Arrows)
+        const paths = [
+          // Melbourne -> Falls Creek
+          [[-37.8136, 144.9631], [-36.8631, 147.2806]], 
+          // Melbourne -> Launceston (Tasmania trip)
+          [[-37.8136, 144.9631], [-41.4391, 147.1358]],
+          // Launceston -> Hobart
+          [[-41.4391, 147.1358], [-42.8821, 147.3272]]
         ];
 
         locations.forEach(loc => {
            L.marker(loc.coords, { icon: createEmojiIcon(loc.emoji) }).addTo(map)
-            .bindPopup(`<b style="font-family: 'Quicksand'; font-size: 14px;">${loc.name}</b>`)
-            .openPopup();
+            .bindPopup(`<b style="font-family: 'Quicksand'; font-size: 14px;">${loc.name}</b>`);
+        });
+
+        // Add dashed lines for paths
+        paths.forEach(path => {
+          L.polyline(path, {
+            color: '#FF6384', // Cute pink/red color for path
+            weight: 3,
+            opacity: 0.7,
+            dashArray: '10, 10', // Dashed line
+            lineCap: 'round'
+          }).addTo(map);
         });
       }
     })
