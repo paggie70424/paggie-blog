@@ -25,8 +25,8 @@
     </div>
 
     <div class="actions">
-      <a href="/about-me.md" class="action-button primary">Read About Me 🧋</a>
-      <a href="/project.md" class="action-button secondary">Check Projects 🍰</a>
+      <RouterLink to="/about-me.html" class="action-button primary">Read About Me 🧋</RouterLink>
+      <RouterLink to="/project.html" class="action-button secondary">Check Projects 🍰</RouterLink>
     </div>
   </div>
 </template>
@@ -155,3 +155,4 @@ h1 {
   background-color: var(--c-brand-light);
 }
 </style>
+
