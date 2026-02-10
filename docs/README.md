@@ -17,3 +17,5 @@ footer: MIT Licensed | Copyright © 2024 Paggie
 ### Latest Updates
 
 Check out my [Projects](/project.md) or learn more [About Me](/about-me.md).
+
+<Comment />
