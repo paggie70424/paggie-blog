@@ -19,26 +19,10 @@
 
         <h3>My Path 🛤️</h3>
         <Timeline />
-      </div>
 
-      <!-- Right Column: Profile, Contact & Interests -->
-      <div class="right-column">
-        <!-- Profile & Contact -->
-        <div class="profile-section">
-          <div class="hero-image-container">
-            <img src="/images/cover.png" alt="Paggie" class="hero-image" />
-            <div class="hover-tooltip">Hi! I am Paggie</div>
-          </div>
-
-          <div class="contact-info">
-            <p>📩 <a href="mailto:paggie70424@gmail.com">paggie70424@gmail.com</a></p>
-            <p>🔗 <a href="https://www.linkedin.com/in/paggie-liu-224475211/" target="_blank">Paggie Liu</a></p>
-          </div>
-        </div>
-
-        <!-- My Interests Sidebar -->
+        <!-- My Interests Section -->
         <div class="interests-section">
-          <h3>My Interests</h3>
+          <h3>My Interests 🏓</h3>
           
           <div class="interest-item">
             <h4>🏓 Table Tennis (桌球)</h4>
@@ -62,6 +46,22 @@
               <li>Tenet (天能)</li>
               <li>Shutter Island (隔離島) - Watched 6+ times!</li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Profile & Contact -->
+      <div class="right-column">
+        <!-- Profile & Contact -->
+        <div class="profile-section">
+          <div class="hero-image-container">
+            <img src="/images/cover.png" alt="Paggie" class="hero-image" />
+            <div class="hover-tooltip">Hi! I am Paggie</div>
+          </div>
+
+          <div class="contact-info">
+            <p>📩 <a href="mailto:paggie70424@gmail.com">paggie70424@gmail.com</a></p>
+            <p>🔗 <a href="https://www.linkedin.com/in/paggie-liu-224475211/" target="_blank">Paggie Liu</a></p>
           </div>
         </div>
       </div>
@@ -146,19 +146,15 @@ p {
 /* Interests Section */
 .interests-section {
   text-align: left;
-  background: var(--c-bg-light); /* Slight contrast if available, else standard bg */
-  padding: 1.5rem;
-  border-radius: 15px;
-  border: 1px solid var(--c-border);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--c-border);
 }
 
 .interests-section h3 {
   margin-top: 0;
   margin-bottom: 1.5rem;
-  text-align: center;
-  border-bottom: 2px dashed var(--c-brand-light);
-  padding-bottom: 0.5rem;
+  text-align: left;
 }
 
 .interest-item {
