@@ -77,6 +77,10 @@
           <p>📩 Contact me: <a href="mailto:paggie70424@gmail.com">paggie70424@gmail.com</a></p>
           <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/paggie-liu-224475211/" target="_blank">Paggie Liu</a></p>
         </div>
+
+        <a href="/paggie-blog/resume/2026_Paggie_Resume.pdf" download="Paggie_Resume.pdf" class="resume-button">
+          Download Resume 📄
+        </a>
       </div>
     </div>
   </div>
@@ -125,12 +129,13 @@ ul {
   text-align: center;
   position: sticky;
   top: 100px; /* Sticky sidebar */
+  gap: 1.5rem;
 }
 
 .hero-image-container {
   position: relative;
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-image {
@@ -165,6 +170,28 @@ ul {
 
 .contact-info a:hover {
   text-decoration: underline;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--c-brand);
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(62, 175, 124, 0.3);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.resume-button:hover {
+  background-color: var(--c-brand-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(62, 175, 124, 0.4);
+  color: white;
+  text-decoration: none;
 }
 
 /* Responsive */
