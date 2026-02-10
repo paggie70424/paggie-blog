@@ -47,25 +47,9 @@
               <li>Shutter Island (隔離島) - Watched 6+ times!</li>
             </ul>
           </div>
-        </div>
-      </div>
-
-      <!-- Right Column: Profile & Contact -->
-      <div class="right-column">
-        <!-- Profile & Contact -->
-        <div class="profile-section">
-          <div class="hero-image-container">
-            <img src="/images/cover.png" alt="Paggie" class="hero-image" />
-            <div class="hover-tooltip">Hi! I am Paggie</div>
-          </div>
-
-          <div class="contact-info">
-            <p>📩 <a href="mailto:paggie70424@gmail.com">paggie70424@gmail.com</a></p>
-            <p>🔗 <a href="https://www.linkedin.com/in/paggie-liu-224475211/" target="_blank">Paggie Liu</a></p>
-          </div>
-        </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -78,69 +62,26 @@ export default {
 <style scoped>
 .about-me-page {
   margin: 2rem auto;
-  max-width: 1200px;
+  max-width: 900px; /* Reduced max-width for better readability as single column */
 }
 
 .content-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 3rem;
+  display: block; /* tailored for single column */
 }
 
-/* Left Column */
+/* Main Content */
 .left-column {
-  flex: 1;
   text-align: left;
 }
 
 h1 {
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 p {
   line-height: 1.8;
   margin-bottom: 1rem;
-}
-
-/* Right Column */
-.right-column {
-  flex: 0 0 320px;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  text-align: center;
-  position: sticky;
-  top: 100px;
-}
-
-.profile-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero-image-container {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 1.5rem;
-}
-
-.hero-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid var(--c-brand-light);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-.contact-info {
-  padding: 1rem;
-  background: var(--c-bg);
-  border: 1px solid var(--c-border);
-  border-radius: 15px;
-  width: 100%;
 }
 
 /* Interests Section */
@@ -181,22 +122,5 @@ p {
 
 .movie-list li {
   margin-bottom: 0.3rem;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .content-wrapper {
-    flex-direction: column;
-  }
-  
-  .right-column {
-    width: 100%;
-    position: static;
-    margin-top: 2rem;
-  }
-
-  .interests-section {
-    text-align: left;
-  }
 }
 </style>
