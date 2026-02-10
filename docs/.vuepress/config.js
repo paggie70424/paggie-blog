@@ -31,8 +31,26 @@ export default {
                 {
                     text: 'Menu',
                     children: [
-                        '/about-me.md',
-                        '/background.md',
+                        {
+                            text: 'About Me',
+                            link: '/about-me.md',
+                            collapsible: true,
+                            children: [
+                                { text: 'My Journey 🇦🇺', link: '/about-me.html#my-journey' },
+                                { text: 'My Path 🛤️', link: '/about-me.html#my-path' },
+                                { text: 'My Interests 🏓', link: '/about-me.html#my-interests' }
+                            ]
+                        },
+                        {
+                            text: 'Background',
+                            link: '/background.md',
+                            collapsible: true,
+                            children: [
+                                { text: 'Experience 💼', link: '/background.html#experience' },
+                                { text: 'Education 🎓', link: '/background.html#education' },
+                                { text: 'Other Experience 🛠', link: '/background.html#other-experience' }
+                            ]
+                        },
                         '/project.md',
                         '/trial.md',
                     ],

@@ -12,17 +12,17 @@
           This platform is a space to share who I’ve been in the past and what I want to achieve in the future—all for leisure and fun. I’m happy to meet you all!
         </p>
 
-        <h3>My Journey 🇦🇺</h3>
+        <h3 id="my-journey">My Journey 🇦🇺</h3>
         <ClientOnly>
           <MapComponent />
         </ClientOnly>
 
-        <h3>My Path 🛤️</h3>
+        <h3 id="my-path">My Path 🛤️</h3>
         <Timeline />
 
         <!-- My Interests Section -->
         <div class="interests-section">
-          <h3>My Interests 🏓</h3>
+          <h3 id="my-interests">My Interests 🏓</h3>
           
           <div class="interest-item">
             <h4>🏓 Table Tennis (桌球)</h4>

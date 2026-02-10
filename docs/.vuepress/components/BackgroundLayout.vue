@@ -5,7 +5,7 @@
       <div class="left-column">
         <h1>Background</h1>
 
-        <h3>💼 Experience</h3>
+        <h3 id="experience">💼 Experience</h3>
 
         <div class="section-item">
           <p><strong>Software Engineering Research Assistant</strong><br>
@@ -31,7 +31,7 @@
           </ul>
         </div>
 
-        <h3>🎓 Education</h3>
+        <h3 id="education">🎓 Education</h3>
         
         <div class="section-item">
           <p><strong>Master of Data Science</strong><br>
@@ -51,7 +51,7 @@
           <em>2015 – 2017</em></p>
         </div>
 
-        <h3>🛠 Other Experience</h3>
+        <h3 id="other-experience">🛠 Other Experience</h3>
 
         <div class="section-item">
           <p><strong>Building Coordinator</strong><br>
