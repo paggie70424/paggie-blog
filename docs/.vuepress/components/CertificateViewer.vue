@@ -48,12 +48,16 @@ export default {
   },
   computed: {
     resolvedSrc() {
-      // Use withBase to correctly resolve the path relative to base URL
-      return withBase(this.src)
+      // Ensure we don't double-add the base if it's already there (rare but possible)
+      // withBase handles the base URL logic from VuePress config
+      const finalPath = withBase(this.src)
+      console.log('CertificateViewer resolving src:', this.src, '->', finalPath)
+      return finalPath
     }
   },
   methods: {
     unlock() {
+      console.log('Unlocking viewer with password attempt')
       if (this.inputPassword === this.password) {
         this.isUnlocked = true
         this.error = false
