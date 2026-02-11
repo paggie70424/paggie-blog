@@ -48,7 +48,8 @@ export default {
                             children: [
                                 { text: 'Experience 💼', link: '/background.html#experience' },
                                 { text: 'Education 🎓', link: '/background.html#education' },
-                                { text: 'Other Experience 🛠', link: '/background.html#other-experience' }
+                                { text: 'Other Experience 🛠', link: '/background.html#other-experience' },
+                                { text: 'Certificates 📜', link: '/certificates.md' }
                             ]
                         },
                         '/project.md',
