@@ -25,8 +25,19 @@ export default {
             { text: 'Background', link: '/background.md' },
             { text: 'Project', link: '/project.md' },
             { text: 'Trial', link: '/trial.md' },
+            { text: 'Funny Things 🎉', link: '/funny.md' },
         ],
         sidebar: {
+            '/funny.html': [
+                {
+                    text: '🎉 Funny Things',
+                    children: [
+                        { text: '🏙️ Best Aussie City', link: '/funny.html#poll-0' },
+                        { text: '🏓👨 Men\'s TT Top 10', link: '/funny.html#poll-1' },
+                        { text: '🏓👩 Women\'s TT Top 10', link: '/funny.html#poll-2' },
+                    ],
+                },
+            ],
             '/': [
                 {
                     text: 'Menu',
@@ -54,6 +65,7 @@ export default {
                         },
                         '/project.md',
                         '/trial.md',
+                        { text: 'Funny Things 🎉', link: '/funny.md' },
                     ],
                 },
             ],
