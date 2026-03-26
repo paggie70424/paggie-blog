@@ -24,12 +24,12 @@ export default {
     return {
       timelineData: [
         { 
-          period: '2017 June', 
+          period: '2017', 
           title: 'Melbourne, Australia – First Step Arrival & Exploration ✈️', 
           content: 'Landed in Melbourne, Australia! Explored a working holiday in Falls Creek, experiencing the full season of snowboarding and mountain life. It was so much fun and marked an important milestone in my life in Australia.'  
         },
         { 
-          period: '2017 Dec', 
+          period: '2017', 
           title: 'Countryside Tasmania Exploration ✈️', 
           content: 'Visited Tasmania to explore country life. As a city girl, I experienced cherry and strawberry packing during a working holiday and enjoyed the rural lifestyle.'  
         },
